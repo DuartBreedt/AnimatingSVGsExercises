@@ -84,10 +84,10 @@ input {
     stroke-linecap: round;
     stroke-miterlimit: 10;
 }
-.open {
+.open-input {
     padding: 10px 20px;
     width: 400px;
 }
-.rotated-svg {
+.open-svg {
     transform: rotate(45deg);
 }

@@ -1,16 +1,16 @@
 $(document).ready(function () {
 
-    signupIsOpen = false;
+    isOpen = false;
 
     $("svg").on("click", function () {
-        if (signupIsOpen) {
-            $("svg").removeClass("rotated-svg");
-            $("input").removeClass("open");
+        if (isOpen) {
+            $("svg").removeClass("open-svg");
+            $("input").removeClass("open-input");
         } else {
-            $("svg").addClass("rotated-svg");
-            $("input").addClass("open");
+            $("svg").addClass("open-svg");
+            $("input").addClass("open-input");
         }
 
-        signupIsOpen = !signupIsOpen;
+        isOpen = !isOpen;
     });
 });
