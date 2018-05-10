@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dash Array</title>
+    <style>
+        .svgContainer {
+            text-align: center;
+        }
+        svg {
+            border: 2px solid red;
+        }
+        svg line {
+            stroke-dasharray: 50;
+            stroke-dashoffset: 0;
+            
+            animation: anim;
+            animation-duration: 5s;
+            animation-delay: 200ms;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        @keyframes anim {
+            from {
+                stroke-dashoffset: 0;
+            }
+            to {
+                stroke-dashoffset: 550
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="svgContainer">
+        <svg height="500" width="550">
+            <line x1="0" y1="250" x2="550" y2="250" stroke="#000" style="stroke-width:2" />
+        </svg>
+    </div>
+</body>
+
+</html>

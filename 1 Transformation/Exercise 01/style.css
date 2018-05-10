@@ -1,0 +1,81 @@
+body {
+    background-color: #F5F5F5;
+    color: #F5F5F5;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:focus, a:active, a:visited {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+input:active, input:focus {
+    outline: none;
+}
+::placeholder {
+    color: #050505;
+    opacity: 0.4;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.svg-container {
+    padding: 10px;
+    width: 62.8px;
+    height: 62.8px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+svg {
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+svg:hover {
+    cursor: pointer;
+}
+svg:hover .lines {
+    stroke: #6ed3cf;
+}
+.title {
+    color: #050505;
+    padding-top: 10px; 
+    margin: 0px;
+    margin-left: 20px;
+}
+.navigation {
+    height: 60px;
+    background-color: #F5F5F5;
+}
+.content {
+    padding-top: 100px;
+    text-align: center;
+}
+input {
+    -webkit-transition: width 0.5s ease, padding 0.5s ease;
+    -moz-transition: width 0.5s ease, padding 0.5s ease;
+    transition: width 0.5s ease, padding 0.5s ease;
+    color: #050505;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    float: left;
+
+    padding: 10px 0px;
+    width: 0px;
+}
+.input-container {
+    position: absolute;
+    overflow: auto;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* INSERT CSS HERE */

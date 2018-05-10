@@ -1,0 +1,48 @@
+body {
+    background-color: #F5F5F5;
+    color: #050505;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    padding-top: 10px; 
+    margin: 0px;
+    margin-left: 20px;
+}
+.navigation {
+    height: 60px;
+    background-color: #F5F5F5;
+}
+.picture {
+    display: inline-block;
+    width: 70px;
+}
+.name {
+    display: inline-block;
+}
+.bin {
+    float: right;
+    width: 30px;
+    margin-top: 15px;
+}
+.picture img {
+    width: 100%;
+    border-radius: 50%;
+}
+svg:hover {
+    cursor: pointer;
+}
+
+/* INSERT CSS HERE */
